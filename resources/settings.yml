@@ -1,0 +1,54 @@
+#Plugin Larguage made by Fan | Configurations of Plugin Larguage
+
+#Larguage Pos | world:x:y:z
+LarguagePos: 
+  - "world:0:50:0"
+  
+#Larguage TP Pos | world:x:y:z
+LarguageTeleportPos:
+  - "world:0:50:0"
+  
+#Larguage drop: "id, meta, count, enchantment, enchantment level"
+LarguageDrop:
+  - "276, 0, 1, 16, 3"
+  - "283, 0, 1"
+  
+#true or false
+LarguageRandomDrop: true
+
+#Permissions for force start larguage | /largage start | largage.start.cmd
+#Description of command /largage
+LarguageCommandDescription: "tp to largage"
+#No Console
+LarguageNoConsole: "No console please"
+
+LarguageNoPerm: "No permission"
+
+#Larguage Hp
+LarguagePv: 20
+#Larguage claim message
+LarguageClaim: "Bravo à §6{player} §fqui récupère un larguage"
+#Larguage Restant HP Popup
+LarguageHpRestant: "§c{hp} §fhp restant"
+#Larguage Timer
+LarguageTime: 60
+#hours, minutes, seconds is a unity for timing
+LarguageTimeUnity: "minutes"
+
+#LarguageDespawn In Minutes
+LarguageDespawnTime: 15
+
+#Alerts Larguage Time
+LarguageStarted: "§1[§f!!!§1] §fLaguage started §1/larguage §ffor tp to random larguage!"
+LarguageSpawnAlerts: "§1[§f!!!§1] §fLaguage starts in §1{times} minutes !"
+LarguageSpawnAlertsTime:
+  - "30"
+  - "15"
+  - "5"
+
+LarguageDespawn: "§1[§9§l!!!§r§1] §fAll restant §clarguages §fwas despawn!"
+LarguageDespawnAlerts: "§1[§f!!!§1] §fLarguage despawn in §1{times} minutes !"
+LarguageDespawnAlertsTime:
+  - "5"
+  - "10"
+  - "15"
